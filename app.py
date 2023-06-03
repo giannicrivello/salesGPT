@@ -7,7 +7,7 @@ import hubspot
 from hubspot.crm.objects.notes import PublicObjectSearchRequest, ApiException
 
 HAaccesstoken = os.getenv("HATOKEN")
-openai.organization = "OPENAI_ORG"
+openai.organization = "org-GGxJCgUkac14ThS65V4GmrJw"
 openai.api_key = os.getenv("OPENAIKEY")
 
 app = Flask(__name__)
@@ -42,7 +42,7 @@ def form():
             # Perform the search
             api_response = client.crm.objects.notes.search_api.do_search(public_object_search_request=public_object_search_request)
             print(api_response)
-            pattern = re.compile(r'<span[^>]*>([^<]+)</span>')
+            pattern = re.compile(r'<p[^>]*>([^<]+)</p>|<span[^>]*>([^<]+)</span>')
             res = []
             conversation = [
                 {"role": "system", "content": "You are a deligent solutions architect taking notes on a customer call"},
