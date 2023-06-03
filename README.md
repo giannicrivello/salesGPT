@@ -11,7 +11,7 @@ I have yet to find a CRM that is able to do this while remaining simple, inexpen
 
 Perhaps having a single CRM that suites a revenue team's needs leads to a break in either being simple, inexpensive, and effective. 
 
-SalesGPT aims to bridge the gap between different sales tools. SalesGPT will live where we all want to be anyway, slack. From slack, SalesGPT will
+SalesGPT aims to bridge the gap between different sales tools, using each tool for what its good for. This minimizes the need for a rep to use multiple tools. SalesGPT will live where we all want to be anyway, slack. From slack, SalesGPT will
 get informaiton from CRM, schedule emails/tasks in outreach tools, update information from email replys, and be able to communicate to delivery teams
 high level business requirments and get a frame work for getting techinical teams up and running.
 
